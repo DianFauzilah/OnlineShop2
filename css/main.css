@@ -1,0 +1,42 @@
+.mdl-layout__header {
+	background-color: #6200ee !important;
+}
+
+.mdl-layout-spacer {
+	margin-left: auto;
+}
+
+.body-product {
+	display: flex !important;
+}
+
+.body--product {
+	display: flex !important;
+	margin-top: 105px;
+}
+
+.card__product {
+  width: 200px;
+  height: 155px;
+  background-color: #fff;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin-right: 10px;
+}
+.text__product{
+	font-size: 14px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.title__product {
+	font-size: 14px;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.product__img img {
+	width: 200px;
+	height: 200px;
+}
+
