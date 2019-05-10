@@ -1,3 +1,6 @@
+a {
+	text-decoration: none;
+}
 .mdl-layout__header {
 	background-color: #6200ee !important;
 }
@@ -93,6 +96,10 @@
     text-align: left;
     color: rgba(0, 0, 0, 0.6);
     margin-bottom: 25px;
+    margin-right: 16px;
+}
+.card__detail-text {
+	margin-right: 16px;
 }
 .card__about {
   width: 100%;
@@ -217,4 +224,5 @@
     background-color: #6200ee;
     color: #fff;
     font-size: 14px;
+    margin-right: 16px;
 }
