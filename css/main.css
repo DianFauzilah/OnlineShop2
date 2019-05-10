@@ -12,7 +12,14 @@
 
 .body--product {
 	display: flex !important;
-	margin-top: 105px;
+	margin-top: 150px;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 18px;
+    margin-top: 20px;
 }
 
 .card__product {
@@ -36,7 +43,171 @@
 }
 
 .product__img img {
-	width: 200px;
-	height: 200px;
+	width: 100%;
+	height: 204px;
+	margin-bottom: 16px;
+}
+.product--img img {
+	width: 100%;
+	height: 204px;
+	background-color: #fafafa;
+	border: 1px solid #fafafa;
+}
+.card__detail {
+  width: 100%;
+  height: 155px;
+  background-color: #fff;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.title__detail {
+	font-size: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.87);
+     margin-bottom: 8px;
 }
 
+.text__detail {
+	font-size: 16px;
+    text-align: left;
+    color: #6200ee;
+    margin-bottom: 16px;
+}
+
+.subtitle__detail {
+	font-size: 14px;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.8);
+	margin-bottom: 8px;
+}
+
+.paragrap__detail {
+	font-size: 14px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 25px;
+}
+.card__about {
+  width: 100%;
+  height: 155px;
+  background-color: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.title__about {
+	font-size: 16px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.subtitle__about {
+	font-size: 14px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.card-laptop {
+	background: url('../img/kategori/laptop.jpg') center / cover;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.card-smartphone {
+	background: url('../img/kategori/smartphone.jpg') center / cover;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.card-headset {
+	background: url('../img/kategori/headset.jpg') center / cover;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.card-Earphone {
+	background: url('../img/kategori/earphone.jpg') center / cover;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.card-tv {
+	background: url('../img/kategori/tv.jpg') center / cover;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.card-radio {
+	background: url('../img/kategori/radio.jpg') center / cover;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.mdl-button--colored {
+	width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    background-color: #6200ee;
+    color: #fff;
+    font-size: 14px;
+}
